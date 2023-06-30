@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  height: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +17,10 @@
   }
 }
 
+html {
+  font-size: 8px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +29,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  height: 100%;
+  font-size: 14px;
 }

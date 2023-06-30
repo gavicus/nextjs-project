@@ -1,0 +1,17 @@
+
+.p-layout {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.p-title {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.p-content {
+	background: white;
+	padding: 4rem 1rem;
+	width: 100%;
+}

@@ -1,0 +1,23 @@
+.tn {
+	position: fixed;
+	width: 100%;
+	background-color: slategray;
+	color: white;
+	padding: 0 1rem;
+	display: flex;
+	gap: 1rem;
+}
+
+.tn-link {
+	padding: 0 1rem;
+	border-radius: 4px;
+}
+
+.tn-link:hover {
+	background-color: lightblue;
+}
+
+.tn-link.active {
+	font-weight: 500;
+	color: wheat;
+}
