@@ -12,7 +12,7 @@ function TopNav () {
 		{href: "/project", text: "Project"},
 	];
 	return (
-		<nav class="tn">
+		<nav className="tn">
             {links.map(link => { 
             	const isActive = pathname === link.href;
             	console.log({isActive, href:link.href})
