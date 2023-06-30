@@ -18,6 +18,7 @@ function TopNav () {
             	console.log({isActive, href:link.href})
             	return (
             		<Link
+            			key={link.text}
             			href={link.href}
             			className={isActive ? 'tn-link active' : 'tn-link'}
         			>{link.text}</Link>

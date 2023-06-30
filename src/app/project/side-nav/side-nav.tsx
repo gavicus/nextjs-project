@@ -18,6 +18,7 @@ function SideNav () {
             	console.log({isActive, href:link.href})
             	return (
             		<Link
+            			key={link.text}
             			href={link.href}
             			className={isActive ? 'sn-link active' : 'sn-link'}
         			>{link.text}</Link>
