@@ -12,12 +12,12 @@ function SideNav () {
 		{href: "/project/second-page", text: "Second Page"},
 	];
 	return (
-		<nav class="sn">
+		<nav className="sn">
             {links.map(link => { 
             	const isActive = pathname === link.href;
-            	console.log({isActive, href:link.href})
             	return (
             		<Link
+            			key={link.text}
             			href={link.href}
             			className={isActive ? 'sn-link active' : 'sn-link'}
         			>{link.text}</Link>
